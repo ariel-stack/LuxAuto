@@ -3,7 +3,6 @@ import { useAuth } from "../context/AuthContext";
 import { useData } from "../context/DataContext";
 import { Eye, EyeOff, AlertCircle } from "lucide-react";
 import { SignUp } from "./SignUp";
-import Spinner from "./ui/Spinner";
 
 const DEMO_PASSWORD = "cliente123";
 
@@ -205,14 +204,6 @@ export function Login() {
               {loading ? 'Verificando...' : 'Iniciar Sesión'}
             </button>
           </form>
-
-          {loading && (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-              <div className="bg-[#0A0A0C] p-4 rounded-lg border border-[#C9A84C]/10 shadow-xl">
-                <Spinner size={56} />
-              </div>
-            </div>
-          )}
 
           <div className="text-center mt-4">
             <p className="text-muted mb-0">
