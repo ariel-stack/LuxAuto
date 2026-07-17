@@ -1,11 +1,3 @@
+This Figma Make file includes components from [shadcn/ui](https://ui.shadcn.com/) used under [MIT license](https://github.com/shadcn-ui/ui/blob/main/LICENSE.md).
 
-  # Sistema de gestión concesionaria
-
-  This is a code bundle for Sistema de gestión concesionaria. The original project is available at https://www.figma.com/design/PJxmM3TmgzxLh0y9HIQDRf/Sistema-de-gesti%C3%B3n-concesionaria.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  # LuxAuto
+This Figma Make file includes photos from [Unsplash](https://unsplash.com) used under [license](https://unsplash.com/license).
